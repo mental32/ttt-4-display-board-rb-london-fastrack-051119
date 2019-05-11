@@ -12,8 +12,8 @@ def display_board
   puts board
     .each_slice(3)
     .to_a
-    .map {|slice| " #{slice[0]} | #{slice[1]} | #{slice[2]} "}
-    .join("-----------")
+    .map {|slice| " #{slice[0]} | #{slice[1]} | #{slice[2]} \n"}
+    .join("-----------\n")
 
 end
 
