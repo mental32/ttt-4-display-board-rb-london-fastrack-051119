@@ -4,8 +4,6 @@
 board = [" "] * 9
 
 def display_board
-  board = [" "] * 9
-
   puts board
     .each_slice(3)
     .to_a
@@ -14,4 +12,3 @@ def display_board
 
 end
 
-display_board
