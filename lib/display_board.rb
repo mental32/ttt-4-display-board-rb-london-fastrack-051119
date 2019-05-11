@@ -3,9 +3,6 @@
 
 board = [" "] * 9
 
-print board
-puts
-
 def display_board
   board = [" "] * 9
 
@@ -18,5 +15,3 @@ def display_board
 end
 
 display_board
-
-puts
