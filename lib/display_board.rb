@@ -9,10 +9,11 @@ puts
 def display_board
   board = [" "] * 9
 
-  for slice in board.each_slice(3).to_a do
-    puts " #{slice[0]} | #{slice[1]} | #{slice[2]} "
-    puts "-----------"
-  end
+  puts board
+    .each_slice(3)
+    .to_a
+    .map {|slice| " #{slice[0]} | #{slice[1]} | #{slice[2]} "}
+    .join("-----------")
 
 end
 
